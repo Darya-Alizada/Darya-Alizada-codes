@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+table{
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Başlıq */
+th{
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Başlığa toxunanda */
+th:hover{
+    background-color: #e74c3c;
+}
+
+/* Digər xanalara toxunanda */
+td:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+/* Şəkil ölçüsü */
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
