@@ -1,0 +1,9 @@
+Table{
+    border-collapse: collapse;
+    width: 50vh;
+    margin: 0 auto;
+}
+
+thead{
+    background-color: green;
+}
